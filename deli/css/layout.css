@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	15;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 96.7391%;
+	padding-left: 1.6304%;
+	padding-right: 1.6304%;
+	clear: none;
+	float: none;
+}
+#div1 {
+}
+#header {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: acme;
+	text-align: center;
+	font-size: xx-large;
+	font-style: normal;
+	font-weight: 400;
+	color: #504644;
+	width: 100%;
+}
+#section {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+	border-top: medium dotted #000000;
+	border-bottom: medium dotted #000000;
+}
+#footer {
+	font-size: small;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#navbar {
+}
+.navbar-item {
+	background-color: #F37000;
+	border-radius: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	clear: both;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 98.3695%;
+	padding-left: 0.8152%;
+	padding-right: 0.8152%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#div1 {
+}
+#header {
+width: 100%;
+}
+#section {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#footer {
+}
+#navbar {
+}
+.navbar-item {
+	width: 11.05%;
+	clear: none;
+	margin-left: 1.6574%;
+	margin-right: 1%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#div1 {
+}
+#header {
+	width: 32.6007%;
+	font-size: x-large;
+}
+#section {
+	border-style: double none dotted;
+	border-radius: 0px;
+}
+#footer {
+}
+#navbar {
+}
+.navbar-item {
+	clear: none;
+	margin-left: 10px;
+	width: 24.1758%;
+	background-color: rgba(255,255,255,0.01);
+	color: #F37000;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}
