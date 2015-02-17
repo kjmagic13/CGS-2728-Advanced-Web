@@ -48,6 +48,8 @@ a:hover {
 .heroHeader {
 	height: 450px;
 	background-color: rgba(208,207,207,1.00);
+	background: url('../images/background.png');
+	background-size: cover;
 }
 /* Navigation styles*/
 .topNavUl {
@@ -142,4 +144,10 @@ a:hover {
 .footerTextContainer {
 	text-align: justify;
 	margin-bottom: 10%;
+}
+.fluid.hero.heroHeader a .fluid.logo.textStyle {
+}
+.fluid.hero.heroHeader a .fluid.logo.textStyle {
+	margin-left: 15px;
+	max-width: 100%;
 }
