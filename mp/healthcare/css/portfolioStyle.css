@@ -56,6 +56,7 @@ a:hover {
 	position: static;
     padding-top:20px;
     padding-bottom: 20px;
+	text-shadow: 2px 2px #ddd;
 }
 .topNavLI {
 	text-align: center;
