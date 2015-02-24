@@ -263,6 +263,10 @@ td { vertical-align: top; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
+#menu .fluid.link a {
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+}
 
 
 /* ==|== print styles =======================================================

@@ -1,10 +1,12 @@
-@charset "UTF-8";
+@charset "utf-8";
 /* Simple fluid media
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
 */
 img, object, embed, video {
 	max-width: 100%;
+	right: auto;
+	padding-right: 2px;
 }
 
 /* IE 6 does not support max-width so default to width 100% */
@@ -33,7 +35,6 @@ img, object, embed, video {
 	width: 100%;
 	float: left;
 	display: block;
-	margin-top: 5px;
 }
 
 .fluidList {
@@ -57,10 +58,8 @@ img, object, embed, video {
 #logo {
 	padding-top: 1px;
 	padding-bottom: 1px;
-	font-size: 45px;
 	font-family: dancing-script;
-	font-style: normal;
-	font-weight: 400;
+	font-size: 45px;
 	text-align: center;
 	width: 100%;
 }
@@ -73,13 +72,13 @@ display: none;
 #content {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	padding-top: 5px;
+	padding-left: 5px;
 	padding-bottom: 5px;
-	border-top-style: solid;
-	border-bottom-style: solid;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	border-color: #000000;
+	border-style: solid none;
 	border-radius: 5px;
-	border-bottom-color: #000000;
 }
 #footer {
 	padding-top: 5px;
@@ -88,8 +87,8 @@ display: none;
 	text-align: center;
 }
 #menu {
-margin-left: 0;
 width: 100%;
+margin-left: 0;
 }
 .link {
 	margin-top: 5px;
@@ -101,9 +100,9 @@ width: 100%;
 	text-align: center;
 	border-radius: 15px;
 	background-color: rgba(255,166,1,1.00);
-	margin-left: 0;
-	clear: both;
 	width: 100%;
+	clear: both;
+	margin-left: 0;
 }
 .zeroMargin_mobile {
 margin-left: 0;
@@ -138,13 +137,12 @@ display: block;
 #content {
 	margin-top: 15px;
 	margin-bottom: 5px;
-	border-top: medium double rgba(0,0,0,1.00);
-	border-right-color: rgba(0,0,0,1.00);
+	border-top-width: medium;
 	border-bottom-width: medium;
-	border-bottom-style: double;
-	border-right-style: none;
-	border-left-style: none;
+	border-style: double none;
 	border-radius: 0px;
+	border-top-color: rgba(0,0,0,1.00);
+	border-bottom-color: rgba(0,0,0,1.00);
 }
 #footer {
 }
@@ -155,11 +153,11 @@ margin-left: 0;
 .link {
 	display: block;
 	width: 11.0497%;
-	clear: none;
 	margin-left: 1.6574%;
-	margin-right: 1%;
+	clear: none;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-right: 1%;
 }
 .hide_tablet {
 display: none;
@@ -184,8 +182,9 @@ margin-left: 0;
 	margin-left: auto;
 }
 #logo {
-	width: 24.1758%;
+	width: 32.6007%;
 	margin-top: 12px;
+	margin-bottom: 12px;
 	font-size: x-large;
 }
 #nav {
@@ -195,7 +194,7 @@ margin-left: 0;
 	clear: none;
 }
 #banner {
-display: none;
+display: block;
 }
 #content {
 }
@@ -207,17 +206,22 @@ margin-left: 0;
 }
 .link {
 	display: block;
+	width: 11.0497%;
 	clear: none;
 	margin-left: 1.6574%;
-	width: 11.0497%;
 	color: rgba(255,166,1,1.00);
 	font-weight: bold;
-	background-color: rgba(255,255,255,0.01);
+	background-color: rgba(255,255,255,0.00);
 }
 .zeroMargin_desktop {
-margin-left: 0;
+	margin-left: 0;
+	color: rgba(255,166,1,1.00);
+	font-weight: bold;
 }
 .hide_desktop {
 display: none;
+}
+#menu .fluid.link a {
+	color: rgba(243,166,1,1.00);
 }
 }
