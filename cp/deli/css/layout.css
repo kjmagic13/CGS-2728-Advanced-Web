@@ -106,6 +106,9 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
+#navbar .fluid.navbar-item a {
+	color: #FFFFFF;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -195,5 +198,8 @@ margin-left: 0;
 }
 .hide_desktop {
 display: none;
+}
+#navbar .fluid.navbar-item a {
+	color: #F37000;
 }
 }

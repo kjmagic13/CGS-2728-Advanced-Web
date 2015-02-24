@@ -37,15 +37,16 @@ Do the following if you're using your customized build of modernizr (http://www.
 	  <header id="header" class="fluid ">David's Deli</header>
 	  <nav id="nav" class="fluid ">
 		<ul id="navbar" class="fluid fluidList ">
-			<li class="fluid navbar-item zeroMargin_desktop">Home</li>
-				<li class="fluid navbar-item">Menu</li>
-				<li class="fluid navbar-item">Catering</li>
-				<li class="fluid navbar-item">About Us</li>
-				<li class="fluid navbar-item">Jobs</li>
-				<li class="fluid navbar-item">Contact</li>
+			<li class="fluid navbar-item zeroMargin_desktop"><a href="../index.html">Home</a></li>
+				<li class="fluid navbar-item"><a href="../menu.html">Menu</a></li>
+				<li class="fluid navbar-item"><a href="../catering.html">Catering</a></li>
+				<li class="fluid navbar-item"><a href="../about.html">About Us</a></li>
+				<li class="fluid navbar-item"><a href="../jobs.html">Jobs</a></li>
+				<li class="fluid navbar-item"><a href="../contact.html">Contact</a></li>
 
 		</ul>
 		</nav>
+        <section id="banner" class="fluid"><!-- TemplateBeginEditable name="imageArea" -->Insert image here<!-- TemplateEndEditable --></section>
 		<section id="section" class="fluid "><!-- TemplateBeginEditable name="sectionEditableRegion" -->sectionEditableRegion<!-- TemplateEndEditable --></section>
 		<footer id="footer" class="fluid ">Kevin McCarthy</footer>
 </div>
