@@ -109,6 +109,29 @@ display: none;
 #navbar .fluid.navbar-item a {
 	color: #FFFFFF;
 }
+tbody tr th {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+tbody tr td {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#section table caption {
+	font-weight: bold;
+	font-size: large;
+}
+#contact p label {
+	width: 200px;
+	display: block;
+	margin-right: 8px;
+	float: left;
+
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -150,6 +173,9 @@ display: none;
 }
 .zeroMargin_tablet {
 margin-left: 0;
+}
+#contact p label {
+	text-align: right;
 }
 }
 
