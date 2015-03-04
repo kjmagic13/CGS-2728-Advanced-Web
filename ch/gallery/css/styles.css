@@ -110,6 +110,22 @@ margin-left: 0;
 .hide_mobile {
 display: none;
 }
+#content table caption {
+	font-weight: bold;
+	font-size: large;
+}
+tbody tr th {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+tbody tr td {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -164,6 +180,9 @@ display: none;
 }
 .zeroMargin_tablet {
 margin-left: 0;
+}
+#contact p label {
+	text-align: right;
 }
 }
 

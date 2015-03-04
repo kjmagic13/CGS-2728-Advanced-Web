@@ -267,6 +267,12 @@ td { vertical-align: top; }
 	color: rgba(255,255,255,1.00);
 	text-decoration: none;
 }
+#contact p label {
+	width: 200px;
+	display: block;
+	margin-right: 8px;
+	float: left;
+}
 
 
 /* ==|== print styles =======================================================
