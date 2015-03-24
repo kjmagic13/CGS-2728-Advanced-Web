@@ -104,12 +104,6 @@ margin-left: 0;
 	clear: both;
 	margin-left: 0;
 }
-.zeroMargin_mobile {
-margin-left: 0;
-}
-.hide_mobile {
-display: none;
-}
 #content table caption {
 	font-weight: bold;
 	font-size: large;
@@ -125,6 +119,21 @@ tbody tr td {
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
+}
+.portrait {
+	text-align: center;
+}
+.family {
+	text-align: center;
+}
+.newborn {
+	text-align: center;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -175,14 +184,16 @@ margin-left: 0;
 	padding-right: 10px;
 	margin-right: 1%;
 }
+#contact p label {
+	text-align: right;
+}
+.portrait {
+}
 .hide_tablet {
 display: none;
 }
 .zeroMargin_tablet {
 margin-left: 0;
-}
-#contact p label {
-	text-align: right;
 }
 }
 
@@ -232,15 +243,15 @@ margin-left: 0;
 	font-weight: bold;
 	background-color: rgba(255,255,255,0.00);
 }
+#menu .fluid.link a {
+	color: rgba(243,166,1,1.00);
+}
+.portrait {
+}
 .zeroMargin_desktop {
-	margin-left: 0;
-	color: rgba(255,166,1,1.00);
-	font-weight: bold;
+margin-left: 0;
 }
 .hide_desktop {
 display: none;
-}
-#menu .fluid.link a {
-	color: rgba(243,166,1,1.00);
 }
 }

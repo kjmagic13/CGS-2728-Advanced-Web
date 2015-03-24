@@ -10,6 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>The Gallery</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
 <!-- InstanceEndEditable -->
 <link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -28,6 +31,8 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 <script src="js/respond.min.js"></script>
 <!-- InstanceBeginEditable name="head" -->
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js" type="text/javascript"></script>
 <!-- InstanceEndEditable -->
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/dancing-script:n4:default.js" type="text/javascript"></script>
 </head>
@@ -38,9 +43,39 @@ Do the following if you're using your customized build of modernizr (http://www.
       <li class="fluid link zeroMargin_desktop"><a href="index.html">home</a></li><li class="fluid link"><a href="services.html">services</a></li><li class="fluid link"><a href="portfolio.html">portfolio</a></li>
       <li class="fluid link"><a href="pricing.html">pricing</a></li>
       <li class="fluid link hide_mobile"><a href="session.html">session</a></li>
-  <li class="fluid link"><a href="contact.html">contact</a></li></ul>   </nav><section id="banner" class="fluid"><!-- InstanceBeginEditable name="imageArea" --><img src="images/portfolio.jpg" alt="Portfolio familty portrait"/><!-- InstanceEndEditable --></section><section id="content" class="fluid"><!-- InstanceBeginEditable name="contentArea" --><p><img src="images/portrait.jpg" alt="Portrait picture" width="300"/>Portrait</p>
-  <p><img src="images/family.jpg" alt="Family picture" width="300"/>Family</p>
-  <p><img src="images/newborn.jpg" alt="Newborn picture" width="300"/>Newborn</p>
+  <li class="fluid link"><a href="contact.html">contact</a></li></ul>   </nav><section id="banner" class="fluid"><!-- InstanceBeginEditable name="imageArea" --><img src="images/portfolio.jpg" alt="Portfolio familty portrait"/><!-- InstanceEndEditable --></section><section id="content" class="fluid"><!-- InstanceBeginEditable name="contentArea" -->
+      <div id="Accordion1">
+        <h3><a href="#">Portrait Photogrpahy</a></h3>
+        <div>
+          <figure class="fluid portrait">
+          <img src="images/portrait.jpg" alt="Portrait picture of young woman" width="400"/>
+          <img src="images/portrait2.jpg" alt="Portrait picture 2 of young woman" width="400"/>
+          <img src="images/portrait3.jpg" alt="Portrait picture of man with football" width="400"/>
+          <img src="images/portrait4.jpg" alt="Portrait picture 3 of young woman" width="400"/>
+            <figcaption>Schedule a portrait photography session in a natural setting</figcaption>
+          </figure>
+        </div>
+        <h3><a href="#">Family Photography</a></h3>
+        <div>
+          <figure class="fluid family">
+          <img src="images/family.jpg" alt="Family picture with their children" width="400"/>
+          <img src="images/family2.jpg" alt="Family picture with 2 children and dogs" width="400"/>
+          <img src="images/family3.jpg" alt="Family picture with two young boys" width="400"/>
+          <img src="images/family4.jpg" alt="Family picture of children in wagon" width="400"/>
+            <figcaption>Having fun during your family photography session is best to capture natural smiles</figcaption>
+          </figure>
+        </div>
+        <h3><a href="#">Newborn Photography</a></h3>
+        <div>
+          <figure class="fluid newborn">
+          <img src="images/newborn.jpg" alt="Newborn picture of sleeping baby" width="400"/>
+          <img src="images/newborn2.jpg" alt="Newborn picture with sibling" width="400"/>
+          <img src="images/newborn3.jpg" alt="Newborn picture with mother" width="400"/>
+          <img src="images/newborn4.jpg" alt="Newborn feet" width="400"/>
+            <figcaption>Let us capture priceless, precious moments of your newborn baby</figcaption>
+          </figure>
+        </div>
+      </div>
   <p>
   <audio preload="metadata" autoplay >
     <source src="audio/portfolio_audio.mp3" type="audio/mp3">
@@ -49,6 +84,11 @@ Do the following if you're using your customized build of modernizr (http://www.
     <p>This broswer does not support HTML5 audio files.</p>
   </audio>
   </p>
+  <script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+  </script>
   <!-- InstanceEndEditable --></section>
   <footer id="footer" class="fluid"><a href="https://www.facebook.com/TheGalleryPortraitAndFamilyPhotography"><img src="images/facebook_image.jpg" alt="Facebook logo"/></a><a href="https://twitter.com/TheGalleryPFP"><img src="images/twitter_image.jpg" alt=Twitter logo""/></a>Copyright &copy; 2015. All Rights Reserved.</footer>
 </div>
