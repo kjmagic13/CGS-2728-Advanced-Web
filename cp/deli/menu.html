@@ -11,6 +11,9 @@
 	<meta name="keywords" content="food, deli, David's Deli, Davids Deli, delicatessen">
 	<!-- InstanceBeginEditable name="doctitle" -->
 	<title>David's Deli</title>
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 	<!-- InstanceEndEditable -->
 	<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 	<link href="css/layout.css" rel="stylesheet" type="text/css">
@@ -29,6 +32,8 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 <script src="js/respond.min.js"></script>
 <!-- InstanceBeginEditable name="head" -->
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
 <!-- InstanceEndEditable -->
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/acme:n4:default.js" type="text/javascript"></script>
 </head>
@@ -47,7 +52,195 @@ Do the following if you're using your customized build of modernizr (http://www.
 		</ul>
 		</nav>
         <section id="banner" class="fluid"><!-- InstanceBeginEditable name="imageArea" -->Insert image here<!-- InstanceEndEditable --></section>
-		<section id="section" class="fluid "><!-- InstanceBeginEditable name="sectionEditableRegion" -->sectionEditableRegion<!-- InstanceEndEditable --></section>
+		<section id="section" class="fluid "><!-- InstanceBeginEditable name="sectionEditableRegion" -->
+		  <script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+          </script>
+	    <div id="Tabs1">
+		    <ul>
+		      <li><a href="#tabs-1">Breakfast</a></li>
+		      <li><a href="#tabs-2">Lunch</a></li>
+              <li><a href="#tabs-3">Dinner</a></li>
+              <li><a href="#tabs-4">Sunday Brunch</a></li>
+	      </ul>
+		    <div id="tabs-1"> Breakfast Combo Platter 8.99<br>
+Belgian waffle, two eggs any style, two sausage links and two strips of bacon, served with toast or bagel.<br>
+<br>
+Corned Beef Hash and Eggs 7.69<br>
+Grilled hash with two eggs any style.<br>
+<br>
+Ham and Eggs 6.69<br>
+Two eggs cooked as you like with grilled center cut ham.<br>
+<br>
+Western Skillet 8.49<br>
+Crispy potato pancake topped with scrambled eggs, sautéed onions, green pepper and smoked ham, sprinkled with Cheddar cheese, baked casserole style and topped with fresh tomatoes and scallions.<br>
+<br>
+Meat Lovers Skillet 8.99<br>
+A Western Skillet with sausage and bacon.<br>
+<br>
+Chicken &amp; Waffles 8.29<br>
+Our Belgian waffle topped with crunchy chicken tenders. Served with breakfast syrup and Buffalo hot sauce on the side.<br>
+<br>
+David's Scramble Wrap 7.69<br>
+Scrambled eggs and bacon, sausage or ham wrapped in a soft tortilla topped with your choice of melted cheese. Served with home fries.<br>
+<br>
+Lite Scramble Wrap 7.49<br>
+Egg Beaters, Egg Whites or scrambled eggs, green peppers and onions wrapped in a tortilla topped with salsa. Served with fresh fruit.<br>
+<br>
+Egg Sandwich 5.99<br>
+Two eggs with cheese and bacon served on a fresh deli roll with home fries.<br>
+<br>
+David's Benedict 7.69<br>
+Two poached eggs on an English muffin with ham and tomato, topped with Hollandaise sauce.<br>
+<br>
+Nova, Eggs and Onion 8.29<br>
+Four scrambled eggs with smoked salmon and onions.<br>
+<br>
+Nova Salmon Benedict 9.99<br>
+Poached eggs on English muffin with smoked Nova salmon, red onion, black olives &amp; capers, topped with Hollandaise sauce.<br>
+<br>
+Blintzes 7.89<br>
+Two homemade crepes filled with sweet cheese and grilled to order. Served with fruit topping and sour cream.<br>
+<br>
+Bananas Foster Belgian Waffle 7.49<br>
+Our specialty waffle topped with caramelized bananas, rum flavored glaze and sliced almonds.<br>
+<br>
+Belgian Waffle 5.99<br>
+Served with butter and breakfast syrup.<br>
+<br>
+French Toast 6.49<br>
+Our specialty. Thick slices of challah bread, dipped in our own special batter.<br>
+<br>
+Bananas Foster French Toast 8.29<br>
+Our specialty French toast topped with caramelized bananas, rum flavored glaze and sliced almonds. </div>
+		    <div id="tabs-2">
+		      Chicken Caesar Salad 9.49<br>
+Fresh romaine lettuce & crisp garlic croutons tossed with our special Caesar dressing and topped with sliced grilled chicken breast.<br>
+<br>
+David's Chopped Salad 9.49<br>
+Turkey, ham, hard boiled egg, black olives, red onion, crisp mixed greens and fresh garden vegetables chopped and topped with Gorgonzola cheese, crumbled bacon and artichoke hearts. Served with your choice of dressing.<br>
+<br>
+Greek Salad 9.29<br>
+Lots of Feta cheese, Greek olives and pepperoncini on a bed of fresh greens with our special dressing. Served with Pita bread. Topped with sliced grilled chicken breast add 2.99.<br>
+<br>
+Strawberry Citrus Salad 9.49<br>
+A cool and refreshing blend of mandarin oranges, fresh strawberries, red grapes and and mixed greens tossed with Gorgonzola and toasted almonds served with a tangy raspberry vinaigrette on the side. Topped with sliced grilled chicken breast add 2.99.<br>
+<br>
+David's Cobb Salad 9.49 pp<br>
+Our version of a classic. Garden fresh mixed greens mounded with diced chicken breast, ham, red onions, crumbled bacon, tomatoes, hard boiled eggs and shredded Cheddar. Served with your choice of dressing on the side.
+	      </div>
+            <div id="tabs-3">
+              David's Shepherd's Pie 12.79<br>
+Our version of this favorite. Tender ground beef and vegetables baked in an individual casserole dish and topped with mashed potatoes and melted Muenster cheese.<br>
+<br>
+Old Fashioned Pot Roast 13.49<br>
+Slow roasted, tender and topped with mushroom gravy, this traditional favorite is served with mashed potatoes and a fresh vegetable.<br>
+<br>
+Beef Brisket Platter 14.59<br>
+Our lean and tender brisket atop two crisp potato pancakes is topped with homemade mushroom demi-glace and served with a fresh vegetable.<br>
+<br>
+Char-Grilled Chopped Sirloin* 12.49<br>
+12 oz. of lean ground sirloin char-grilled and topped with caramelized onions and mushroom demi-glace. Served with mashed potatoes and a fresh vegetable.<br>
+<br>
+Corned Beef and Cabbage 12.39<br>
+Our tender corned beef served with braised cabbage, boiled potatoes and a fresh vegetable.<br>
+<br>
+Grilled Liver and Onions* 11.49<br>
+Beef liver smothered with sweet caramelized onions. Served with mashed potatoes, mushroom demi-glace and a fresh vegetable.<br>
+<br>
+Roasted Stuffed Chicken Breast 12.49<br>
+Filled with a traditional cornbread stuffing and a hint of sweet apricot. Served with mashed potatoes and a fresh vegetable.<br>
+<br>
+Broiled Tilapia 12.29<br>
+Select fillets lightly seasoned and finished with a light lemon dill butter sauce. Served with rice pilaf and a fresh vegetable.<br>
+<br>
+Mediterranean Tilapia 12.99<br>
+Baked fillets topped with a reduction of sautéed tomatoes, garlic, capers, fresh thyme and white wine. Served with rice pilaf and a fresh vegetable.<br>
+<br>
+Chicken Marsala 13.79<br>
+Chicken breast sautéed with mushrooms then deglazed with a rich Marsala wine sauce. Served with roasted potatoes and a fresh vegetable.<br>
+<br>
+Cheese Blintzes 11.49<br>
+Three homemade crepes with sweet cheese filling, grilled to order. Served with fruit topping and sour cream.
+            </div>
+            <div id="tabs-4">
+              Chicken Pesto Omelet<br>
+With a three-cheese blend and tomato.<br>
+$9.00<br>
+<br>
+Philly Steak and Cheese Omelet<br>
+With grilled onions, tomato, and a two-cheese blend.<br>
+$9.00<br>
+<br>
+Tri-Pork Omelet<br>
+Pulled pork, bacon, and andouille sausage with caramelized onions, tomato, and Swiss.<br>
+$9.00<br>
+<br>
+Spinach, Tomato, Feta & Mozzarella Omelet<br>
+$8.50<br>
+<br>
+Eggs Benedict<br>
+Poached eggs on a muffin with Smithfield ham and hollandaise sauce.<br>
+$9.50<br>
+<br>
+Red Eye Burger<br>
+6 oz. cheeseburger with American, bacon, fried egg, lettuce, tomato, and pesto on a toasted Kaiser.<br>
+$9.25<br>
+<br>
+Southern Crab Cake Breakfast Sandwich<br>
+Our crab cake topped with a fried egg, Smithfield ham, tomato and cocktail sauce on a toasted Kaiser.<br>
+$9.50<br>
+<br>
+French Toast<br>
+Served with a touch of fruit and whipped cream. Add bacon, andouille sausage or breakfast sausage $2.50<br>
+$6.00<br>
+<br>
+Belgian Waffle<br>
+Topped with whipped cream and sautéed bananas. Add bacon, andouille sausage or breakfast sausage $2.50. Add 5 jumbo wings for $5.50.<br>
+$6.50<br>
+<br>
+Breakfast Pizza with Meat<br>
+Two cheese blend and eggs with andouille sausage, bacon, and ham.<br>
+$10.00<br>
+<br>
+Breakfast Pizza Veggie<br>
+Two cheese blend, green bell peppers, onions, potatoes, spinach, and mushrooms.<br>
+$9.50<br>
+<br>
+Greek Pizza Bureki (Makaronopita)<br>
+Whipped eggs tossed with feta, ricotta, parmagian, kasseri, and angel hair pasta, baked on a pizza pan with provolone cheese. Add bacon, andouille sausage, breakfast sausage, ham or any vegetable $2.50.<br>
+$9.50<br>
+<br>
+Egg and Cheese Biscuit with Bacon, Sausage or Ham<br>
+Add a side of bacon, andouille sausage, breakfast sausage, ham, vegetable or fruit $2.50. Add a side of toast or biscuit $2.25<br>
+$4.25<br>
+<br>
+Coffee, Orange Juice, Milk<br>
+$2.09<br>
+<br>
+Hot Tea, Iced Tea sweet or unsweet<br>
+$2.09<br>
+<br>
+Fountain Coke Products<br>
+$2.09<br>
+<br>
+Mimosa<br>
+$2.50<br>
+<br>
+Mimosa Pitcher<br>
+$5.00<br>
+<br>
+Pete's Bloody Mary<br>
+$4.00<br>
+<br>
+Bloody Mary Bar<br>
+Build your own Bloody Mary.<br>
+$5.00
+            </div>
+	    </div>
+		<!-- InstanceEndEditable --></section>
 		<footer id="footer" class="fluid ">Kevin McCarthy</footer>
 </div>
 </body>
