@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Gallery</title>
+<link href="../jquery-mobile/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="../jquery-mobile/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="../jquery-mobile/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="home" data-role="page" data-theme="e">
+  <div data-role="header">
+    <h1><img src="images/m_logo.jpg" width="300" height="199" alt="The Gallery Mobile Logo"/></h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#session">Session</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="footer">
+    <h4>Copyright 2015, All Rights Reserved</h4>
+  </div>
+</div>
+
+<div data-role="page" id="services">
+  <div data-role="header">
+    <h1>Services</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>Portrait</h3>
+        <p>Whether you are looking for a professional studio head shot or a candid photo, we can provide just what you need for your individual portrait session.</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Family/Children</h3>
+        <p>Whether you are looking for a professional studio head shot or a candid photo, we can provide just what you need for your individual portrait session.</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Newborn/Maternity</h3>
+        <p>Whether you are looking for a professional studio head shot or a candid photo, we can provide just what you need for your individual portrait session.</p>
+      </div>
+    </div>
+  
+  </div>
+  <div data-role="footer">
+    <a href="#home" data-role="button" data-icon="home">Home</a>
+  </div>
+</div>
+
+<div data-role="page" id="portfolio">
+  <div data-role="header">
+    <h1>Portfolio</h1>
+  </div>
+  <div data-role="content">
+  <p><img src="images/port1.jpg" alt="Portfolio Image 1"/></p>
+  <p><img src="images/port2.jpg" alt="Portfolio Image 2"/></p>
+  <p><img src="images/port3.jpg" alt="Portfolio Image 3"/></p>
+  </div>
+  <div data-role="footer">
+    <a href="#home" data-role="button" data-icon="home">Home</a>
+  </div>
+</div>
+
+<div data-role="page" id="pricing">
+  <div data-role="header">
+    <h1>Pricing</h1>
+  </div>
+  <div data-role="content">
+    <div class="ui-grid-a">
+      <div class="ui-block-a">Portrait</div>
+      <div class="ui-block-b">$75</div>
+      <div class="ui-block-a">Family</div>
+      <div class="ui-block-b">$175</div>
+      <div class="ui-block-a">Children</div>
+      <div class="ui-block-b">$135</div>
+      <div class="ui-block-a">Newborn</div>
+      <div class="ui-block-b">$150</div>
+      <div class="ui-block-a">Maternity</div>
+      <div class="ui-block-b">$95</div>
+    </div>
+  	
+  </div>
+  <div data-role="footer">
+    <a href="#home" data-role="button" data-icon="home">Home</a>
+  </div>
+</div>
+
+<div data-role="page" id="session">
+  <div data-role="header">
+    <h1>Session</h1>
+  </div>
+  <div data-role="content"><p>Enter your username and password to view potos from your your photography section.</p>
+    <div data-role="fieldcontain">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" value="Username"  />
+    </div>
+    <div data-role="fieldcontain">
+      <label for="passwordinput">Password:</label>
+      <input type="password" name="passwordinput" id="passwordinput" value="Password"  />
+    </div>
+    <button>Sign In</button>
+  
+  </div>
+  <div data-role="footer"><a href="#home" data-role="button" data-icon="home">Home</a>
+    
+  </div>
+</div>
+
+<div data-role="page" id="contact">
+  <div data-role="header">
+    <h1>Contact</h1>
+  </div>
+  <div data-role="content"><a href="mailto:thegallerypfp@thegallery.net" data-role="button" data-icon="star">Email Us</a>
+  <a href="tel:6435550324" data-role="button" data-icon="star">Call Us</a>
+  
+  </div>
+  <div data-role="footer">
+    <a href="#home" data-role="button" data-icon="home">Home</a>
+    
+  </div>
+</div>
+
+</body>
+</html>
