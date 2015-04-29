@@ -7561,7 +7561,7 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   color: #333333; }
 
 body {
-  background: url("/images/bg.jpg") repeat-x; }
+  background: url("images/bg.jpg") repeat-x; }
 
 #navBar {
   margin-bottom: 0; }
